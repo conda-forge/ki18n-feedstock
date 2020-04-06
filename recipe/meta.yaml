@@ -1,5 +1,5 @@
 {% set name = "ki18n" %}
-{% set version = "5.67.0" %}
+{% set version = "5.68.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/ki18n-{{ version }}.tar.xz
-  sha256: 85114fb458e66ca7ce02e06fb1b6541989c3516d68873d2ca3fc2438d7258dcd
+  sha256: 2c59dd55d032c95710e338e376a31bf11d799bceba8ebfdb148c8b77067a1e92
 
 build:
   number: 0
@@ -35,7 +35,7 @@ about:
   license: LGPL-v2.1-or-later
   license_family: GPL
   license_file: COPYING.LIB
-  summary: 'KDE Gettext-based UI text internationalization'
+  summary: KDE Gettext-based UI text internationalization
   description: |
     KI18n provides functionality for internationalizing user interface text in applications,
     based on the GNU Gettext translation system. It wraps the standard Gettext functionality,
