@@ -22,7 +22,7 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
-    - extra-cmake-modules
+    - extra-cmake-modules >={{ version }}
   host:
     - qt
 
