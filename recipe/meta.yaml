@@ -1,5 +1,5 @@
 {% set name = "ki18n" %}
-{% set version = "5.69.0" %}
+{% set version = "5.70.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/ki18n-{{ version }}.tar.xz
-  sha256: 7974178947ae111d527836e918f3a4090651e49216c42bbcfb0ade0c854cea5c
+  sha256: 8c320c7c0048c0c908879a5611c601ffb027ae7c3c864840aa5a2482101125b9
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
-    - extra-cmake-modules
+    - extra-cmake-modules >={{ version }}
   host:
     - qt
 
