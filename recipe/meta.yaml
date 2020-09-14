@@ -33,7 +33,6 @@ test:
 about:
   home: https://api.kde.org/frameworks/ki18n/html/index.html
   license: BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
-  license_family: GPL
   license_file: 
     - LICENSES/BSD-3-Clause.txt
     - LICENSES/LGPL-2.0-only.txt
